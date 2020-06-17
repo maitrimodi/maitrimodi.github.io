@@ -1,0 +1,459 @@
+header,footer{
+    background-color: lightslategrey;
+    margin: auto;
+}
+
+header h1,footer p{
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    margin:0px;
+}
+footer{
+    margin:0px;
+    height:30px;
+}
+.table-flex{
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width:150px;
+    border: 2px solid black;
+}
+
+#main-container{
+    /* width: 800px; */
+    margin-top: 68px;
+    margin-left: 393px;
+    margin-bottom: 65px;
+    /* overflow: hidden; */
+}
+
+.zoom_in{
+  transition: transform .2s;
+}
+
+.zoom_in:hover {
+    transform: scale(1.5); 
+}
+
+.image{
+    height:50px;
+    width:50px;
+    margin-top: 51px;
+    margin-left: 42px;
+}
+
+.confetti-container{
+    display: none;
+}
+
+.confetti{
+    width:15px;
+    height:15px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50%;
+    animation: confetti 5s ease-in-out -2s infinite;
+    transform-origin: left top;
+}
+
+.confetti:nth-child(1){
+    background-color: chartreuse;
+    left: 3.5%;
+    animation-delay: 0s;
+}
+
+.confetti:nth-child(2){
+    background-color: coral;
+    left: 7%;
+    animation-delay: -5s;
+}
+
+.confetti:nth-child(3){
+    background-color: crimson;
+    left: 10.5%;
+    animation-delay: -3s;
+}
+
+.confetti:nth-child(4){
+    background-color: darkmagenta;
+    left: 14%;
+    animation-delay: -2s;
+}
+
+.confetti:nth-child(5){
+    background-color: green;
+    left: 17.5%;
+    animation-delay: -1.5s;
+}
+
+.confetti:nth-child(6){
+    background-color: saddlebrown;
+    left: 21%;
+    animation-delay: -6s;
+}
+
+.confetti:nth-child(7){
+    background-color: slateblue;
+    left: 24.5%;
+    animation-delay: -5.5s;
+}
+
+.confetti:nth-child(8){
+    background-color: wheat;
+     left: 28%;
+    animation-delay: -4s;
+}
+
+.confetti:nth-child(9){
+    background-color: red;
+    left: 31.5%;
+    animation-delay: -4.5s;
+}
+
+.confetti:nth-child(10){
+    background-color:maroon;
+    left: 35%;
+    animation-delay: -3.5s;
+}
+
+.confetti:nth-child(11){
+    background-color:olive;
+    left: 38.5%;
+    animation-delay: -1s;
+}
+
+.confetti:nth-child(12){
+    background-color:steelblue;
+    left: 42%;
+    animation-delay: -2.5s;
+}
+
+.confetti:nth-child(13){
+    background-color:yellow;
+    left: 45.5%;
+    animation-delay: -7s;
+}
+
+.confetti:nth-child(14){
+    background-color:darkseagreen;
+    left: 49%;
+    animation-delay: -6.5s;
+}
+
+.confetti:nth-child(15){
+    background-color:palevioletred;
+    left: 52.5%;
+    animation-delay: -9.5s;
+}
+
+.confetti:nth-child(16){
+    background-color:royalblue;
+    left: 56%;
+    animation-delay: -8.5s;
+}
+
+.confetti:nth-child(17){
+    background-color: rosybrown;
+    left: 59.5%;
+    animation-delay: -7.5s;
+}
+
+.confetti:nth-child(18){
+    background-color:orchid;
+    left: 63%;
+    animation-delay: -8s;
+}
+
+.confetti:nth-child(19){
+    background-color:deeppink;
+    left: 66.5%;
+    animation-delay: -10s;
+}
+
+.confetti:nth-child(20){
+    background-color: gold;
+    left: 70%;
+    animation-delay: -9s;
+}
+
+.confetti:nth-child(21){
+    background-color: blueviolet;
+    left: 73.5%;
+    animation-delay: -8s;
+}
+
+.confetti:nth-child(22){
+    background-color: brown;
+    left: 77%;
+    animation-delay: -1.25s;
+}
+
+.confetti:nth-child(23){
+    background-color: burlywood;
+    left: 80.5%;
+    animation-delay: -2.25s;
+}
+
+.confetti:nth-child(24){
+    background-color: chartreuse;
+    left: 84%;
+    animation-delay: -3.25s;
+}
+
+.confetti:nth-child(25){
+    background-color: crimson;
+    left: 87.5%;
+    animation-delay: -4.25s;
+}
+
+.confetti:nth-child(26){
+    background-color: darkblue;
+    left: 10.25%;
+    animation-delay: -5.25s;
+}
+
+.confetti:nth-child(27){
+    background-color: darkolivegreen;
+    left: 40.25%;
+    animation-delay: -6.25s;
+}
+
+.confetti:nth-child(28){
+    background-color: darkturquoise;
+    left: 26.25%;
+    animation-delay: -7.25s;
+}
+
+/* .confetti:nth-child(29){
+    background-color: fuchsia;
+    left: 85.25%;
+    animation-delay: -8.25s;
+} */
+
+.confetti:nth-child(30){
+    background-color: grey;
+    left: 80.25%;
+    animation-delay: -9.25s;
+}
+
+.confetti:nth-child(31){
+    background-color: indigo;
+    left: 88%;
+    animation-delay: -10.25s;
+}
+
+.confetti:nth-child(32){
+    background-color: khaki;
+    left: 81%;
+    animation-delay: -10.5s;
+}
+
+.confetti:nth-child(33){
+    background-color:green;
+    left: 10%;
+    animation-delay: -11s;
+}
+
+.confetti:nth-child(34){
+    background-color: indianred;
+    left: 6%;
+    animation-delay: -11.25s;
+}
+
+.confetti:nth-child(35){
+    background-color: lightseagreen;
+    left: 8%;
+    animation-delay: -11.5s;
+}
+
+.symbol-o{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 20px solid #E5E5FF;
+    border-top: 20px solid #000066;
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 40px;
+    /* transform: translateY(10px) translateX(10px); */
+    animation: ring 3s linear infinite; 
+}
+
+.first-dash{
+    width: 112px;
+    height: 47px;
+    border-bottom: 20px solid #000066;
+    transform: translateY(30px) translateX(30px) rotate(53deg);
+    position: absolute;
+}
+
+.first-square{
+    width: 20px;
+    height: 47px;
+    border-bottom:20px solid #E5E5FF;
+    position: absolute;
+    animation: square 2s infinite linear;
+}
+
+.second-square{
+    width: 20px;
+    height: 47px;
+    border-bottom:20px solid #E5E5FF;
+    position: absolute;
+    animation: square 2s infinite linear;
+}
+
+.second-dash{
+    width: 112px;
+    height: 47px;
+    border-bottom: 20px solid #000066;
+    transform: translateY(57px) translateX(30px) rotate(128deg);
+}
+
+.output-result{
+    animation: result 5s linear;
+    font-size: 64px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 106px;
+}
+
+.background-change{
+    animation: change-background 5s infinite ease-in-out; 
+    z-index: -1;
+    
+}
+@keyframes result{
+    0%{
+        transform : scaleY(0.5) translateY(-1500px);
+    }
+    100%{
+        transform : scaleY(1) translateY(0px);
+    }
+}
+
+@keyframes confetti {
+    0%{
+        transform: rotateX(10deg) rotateY(0deg) translate(0,0);
+    }
+    25%{
+        transform: rotateX(5deg) rotateY(360deg) translate(-5vw,15vh);
+    }
+    50%{
+        transform: rotateX(10deg) rotateY(720deg) translate(5vw,30vh);
+    }
+    75%{
+        transform: rotateX(5deg) rotateY(360deg) translate(-8vw,45vh);
+    }
+    100%{
+        transform: rotateX(10deg) rotateY(0deg) translate(8vw,60vh);
+    }
+}
+
+@keyframes ring{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes square{
+    100%{
+        margin-left:92px ;
+    }
+}
+
+@keyframes change-background{
+    0%{
+        background-color:#E5E5FF;
+    }
+    25%{
+        background-color: #CCCCFF;
+    }
+    50%{
+        background-color:#B2B2FF;
+    }
+    75%{
+        background-color:#9999FF;
+    }
+    85%{
+        background-color:#7F7FFF;
+    }
+    100%{
+        background-color:#E5E5FF;
+    }
+}
+@media only screen and (max-width:1200px){
+    #main-container{
+       width: 50%;
+       /* margin: auto; */
+    }
+}
+@media only screen and (max-width:768px) {
+    #main-container{
+        width:50%;
+        margin: auto;
+        margin-top: 68px;
+        margin-bottom: 65px;
+    }
+    .symbol-o{
+        margin-left: 17px;
+    }
+    .output-result{
+        margin-left: 55px;
+    }
+}
+@media only screen and (max-width:320px){
+    #main-container{
+        width:90%;
+        margin: auto;
+        margin-top: 68px;
+        margin-bottom: 65px;
+    }
+    .symbol-o{
+        margin-left: 25px;
+        height: 12px;
+        width: 15px;
+        border: 13px solid #E5E5FF;
+        border-top: 13px solid #000066;
+        margin-top: 52px;   
+    }
+    .output-result{
+        margin-left: 70px;
+    }
+    .first-square,.second-square{
+        width: 11px;
+        height: 30px;
+        border-bottom: 13px solid #E5E5FF;
+    }
+    .first-dash{
+        width: 70px;
+        height: 30px;
+        border-bottom: 13px solid #000066;
+        transform: translateY(40px) translateX(13px) rotate(53deg);
+    }
+    .second-dash{
+        width: 70px;
+        height: 30px;
+        border-bottom: 13px solid #000066;
+        transform: translateY(57px) translateX(10px) rotate(128deg);
+    }
+    .output-result{
+        font-size: 43px;
+    }
+    @keyframes square {
+        100%{
+            margin-left: 58px;
+        }
+       
+    }
+} 
