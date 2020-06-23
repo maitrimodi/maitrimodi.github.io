@@ -1,0 +1,106 @@
+{
+    "title" : "Maitri Modi",
+    "icon" : "img/maitri.ico",
+    "logo" : "M",
+    "my_img" : "img/me-3.jpeg",
+    "intro_title" : "I am Full Stack Developer",
+    "my_brief" : " A curious person and always eager to learn new things. Loves to solve complex problems and likes to grow in new directions. Loves coding in HTML, JavaScript, PHP, ASP.Net, and many more. I always look for a new path to explore and find something new that amaze me.",
+    "social_media" : [
+        {
+            "social_icon" : "fab fa-linkedin", "social_link" : "https://www.linkedin.com/in/maitri-modi-24907b192/"
+        },
+        {
+            "social_icon" : "fab fa-github", "social_link" : "https://github.com/maitrimodi"
+        }
+    ],
+    "resume_title" : "Hire Me",
+    "resume_link" : "Maitri_Modi_Resume.pdf",
+    "education" : [
+        {
+            "institute" : "Gujarat Technological University", "program" : "Bachelor in Computer Engineering(India, Ahmedabad)"
+        },
+        {
+            "institute" : "Humber College of applied arts and technology", "program" : "Post Graduation in Web Development(Canada, Toronto)"
+        }
+    ],
+    "academic_experience" : [
+        {
+            "position" : "Front-end Web Developer", "project" : "Muse Restaurant(Humber)"
+        },
+        {
+            "position" : "Document Manager", "project" : "North Bay Regional Hospital(Humber)"
+        }
+    ],
+    "skills" : [
+        {
+            "skill_title" : "HTML", "skill_known" : "90%"
+        },
+        {
+            "skill_title" : "CSS", "skill_known" : "80%"
+        },
+        {
+            "skill_title" : "JavaScript", "skill_known" : "85%"
+        },
+        {
+            "skill_title" : "jQuery", "skill_known" : "75%"
+        },
+        {
+            "skill_title" : "PHP", "skill_known" : "60%"
+        },
+        {
+            "skill_title" : "XML", "skill_known" : "60%"
+        },
+        {
+            "skill_title" : "ASP.Net", "skill_known" : "75%"
+        },
+        {
+            "skill_title" : "BootStrap", "skill_known" :"70%"
+        }
+    ],
+    "services" : [
+        {
+            "service" : "Web Design", "service_icon": "icon icon-laptop"
+        },
+        {
+            "service" : "Development", "service_icon": "icon icon-layers"
+        },
+        {
+            "service" : "Content Writing", "service_icon": "icon icon-megaphone"
+        },
+        {
+            "service" : "Clean Code", "service_icon": "icon icon-shield"
+        },
+        {
+            "service" : "Fully Responsive", "service_icon": "icon icon-mobile"
+        }
+    ],
+    "projects" : [
+        {
+            "project_title" : "iTutor", "project_img" : "img/iTutor.png", "languages" : "PHP, HTML, CSS, MySQL, JavaScript, Materialize", "project_link" : "http://priyankakhadilkar.com/onlinetutor/"
+        },
+        {
+            "project_title" : "NBRHSC Hospital", "project_img" : "img/hospital.png", "languages" : "ASP.NET(MVC), MS SQL, Figma", "project_link" : "https://github.com/susanboratynska/Hospital"
+        },
+        {
+            "project_title" : "Cartoon (Passion Project)", "project_img" : "img/cartoon.png", "languages" : "ASP.NET(MVC)", "project_link" : "https://github.com/maitrimodi/PassionProject"
+        },
+        {
+            "project_title" : "Muse Restaurant", "project_img" : "img/muse.png", "languages" : "HTML, CSS, JavaScript, jQuery", "project_link" : "https://maitrimodi.github.io/Muse"
+        },
+        {
+            "project_title" : "Tic Tac Toe", "project_img" : "img/tic-tac-toe.PNG", "languages" : "HTML, CSS, CSS3, JavaScript", "project_link" : "https://maitrimodi.github.io/tic-tac-toe/"
+        }
+    ],
+    "contact_info" : [
+        {
+            "contact_title" : "Phone", "contact_data" : "+1 437 972 7646", "contact_icon" : "icon icon-mobile"
+        },
+        {
+            "contact_title" : "Email", "contact_data" : "maitrimodi19@gmail.com","contact_icon" : "icon icon-envelope"
+        },
+        {
+            "contact_title" : "Address", "contact_data" : "Etobicoke, M9W 7B8 Canada","contact_icon" : "icon icon-map-pin"
+        }
+    ],
+    "theme_license" : "license.pdf"
+}
