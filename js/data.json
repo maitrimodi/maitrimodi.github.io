@@ -76,7 +76,7 @@
     ],
     "projects" : [
         {
-            "project_title" : "iTutor", "project_img" : "img/iTutor.png", "languages" : "PHP, HTML, CSS, MySQL, JavaScript, Materialize", "project_link" : "http://priyankakhadilkar.com/onlinetutor/"
+            "project_title" : "iTutor", "project_img" : "img/iTutor.png", "languages" : "PHP, HTML, CSS, MySQL, JavaScript, Materialize", "project_link" : "http://priyankakhadilkar.com/onlinetutor/","project_description": "iTutor is a website which is about online tutoring. This project is built using PHP, JavaScript, materialize and MySQL. It is a content management system which allows the admin to control the whole website. This website has many features such as user management, tutor management, subject management, contact. In the contact feature, user fills out the form of their inquiry and they get an email regarding their inquries."
         },
         {
             "project_title" : "NBRHSC Hospital", "project_img" : "img/hospital.png", "languages" : "ASP.NET(MVC), MS SQL, Figma", "project_link" : "https://github.com/susanboratynska/Hospital"
@@ -85,7 +85,7 @@
             "project_title" : "Cartoon (Passion Project)", "project_img" : "img/cartoon.png", "languages" : "ASP.NET(MVC)", "project_link" : "https://github.com/maitrimodi/PassionProject"
         },
         {
-            "project_title" : "Muse Restaurant", "project_img" : "img/muse.png", "languages" : "HTML, CSS, JavaScript, jQuery", "project_link" : "https://maitrimodi.github.io/Muse"
+            "project_title" : "Muse Restaurant", "project_img" : "img/muse.png", "languages" : "HTML, CSS, JavaScript, jQuery", "project_link" : "https://maitrimodi.github.io/Muse", "project_description": "Muse is a restaurant website. This project is built using HTML, CSS, JavaScript and jQuery. It is based on the online services a restaurant can provide such as booking event, viewing menu and many more. Booking table feature books table for the guests and then they can a confirmation email regarding their booking details."
         },
         {
             "project_title" : "Tic Tac Toe", "project_img" : "img/tic-tac-toe.PNG", "languages" : "HTML, CSS, CSS3, JavaScript", "project_link" : "https://maitrimodi.github.io/tic-tac-toe/"
