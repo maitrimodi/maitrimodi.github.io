@@ -16231,8 +16231,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/maitrimodi/Documents/Final_nithya_project/final-project-maitrimodi/frontend-design/src/polyfills.ts */"./src/polyfills.ts");
-module.exports = __webpack_require__(/*! /Users/maitrimodi/Documents/Final_nithya_project/final-project-maitrimodi/frontend-design/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+__webpack_require__(/*! /Users/maitrimodi/Documents/web_project_nithya/project-and-learning-documentations-team-terminal/frontend-design/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/maitrimodi/Documents/web_project_nithya/project-and-learning-documentations-team-terminal/frontend-design/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
 
 /***/ })
